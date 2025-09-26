@@ -66,7 +66,7 @@ endmodule
 
 ### Sumador de 4 bit
 
-Para el sumador de 4 bits se crea las entradas y salidas como registros de 4 bits. Con esto se instancia las 4 sumas de un bit dandole como parametro el bit significativo correspondiente de las entradas y para el parametro Cin le damos como entrada el Cout del sumador anterior como se explico anterior mente. 
+Para el sumador de 4 bits se crea las entradas y salidas como registros de 4 bits. Con esto se instancia las 4 sumas de un bit dandole como parametro el bit significativo correspondiente de las entradas y para el parametro Cin le damos como entrada el Cout del sumador anterior como se explicó anteriormente. 
 ```python
 module Sum4bcc (xi,yi,cout,S);
 
@@ -365,7 +365,7 @@ El código del testbench estaba inicialmente diseñado para iterar de manera inf
 Figura 2. Simulación en *testbench* del sumador de 4 bits.
 
 Se puede observar en los resultados que la suma entre dos números de 4 bits es un número de 4 bits y que cuando el resultado supera el 15 hay un desbordamiento por lo cual esta suma se ajusta a una aritmetica modular modulo 16. Para que el resultado sea exacto sería necesario considerar la salida como de 5 bits y usar  *cout* como el bit más significativo.
-Se evidencia que a diferencia de la programación de software no es necesario llamar el modulo Sum4bcc o sum1bcc dentro del ciclo for ya que los modulos ya han sido instanciados/conectados internamente y siempre responderán a cambios en la entrada.
+Se evidencia que a diferencia de la programación de software no es necesario llamar el modulo Sum4bcc o sum1bcc dentro del ciclo for, ya que los modulos ya han sido instanciados/conectados internamente y siempre responderán a cambios en la entrada.
 ## Videos de funcionamiento.
 En el siguiente video se puede observar el funcionamiento del sumador de 4 bits en la placa.
 
@@ -373,7 +373,7 @@ En el siguiente video se puede observar el funcionamiento del sumador de 4 bits 
 
 ## Conclusión 
 
-Con descripción de hardware podemos implementar sistemas digitales mas complejos apartir de unidades digitales mas simples.
+Con descripción de hardware podemos implementar sistemas digitales más complejos apartir de unidades digitales más simples.
 
 La simulación es una util herramienta para poder ver funcionamiento del hadware antes de su implementación.
 
