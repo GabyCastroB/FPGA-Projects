@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../Electronica_Digital_2/ProyectoDigital/ProyectoDigital.srcs/sources_1/new/Movimiento.v" \
+"../../../../../Electronica_Digital_2/ProyectoDigital/ProyectoDigital.srcs/sources_1/new/compt.v" \
+"../../../../../Electronica_Digital_2/ProyectoDigital/ProyectoDigital.srcs/sources_1/new/dinamic_v.v" \
+"../../../../../Electronica_Digital_2/ProyectoDigital/ProyectoDigital.srcs/sources_1/new/div_f.v" \
+"../../../../../Electronica_Digital_2/ProyectoDigital/ProyectoDigital.srcs/sources_1/new/teclado.v" \
+"../../../../../Electronica_Digital_2/ProyectoDigital/ProyectoDigital.srcs/sources_1/new/main.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
