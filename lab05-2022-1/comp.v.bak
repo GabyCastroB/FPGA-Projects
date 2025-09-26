@@ -1,0 +1,16 @@
+module comp(B, z);
+  input [15:0]B;
+  output z;
+  reg tmp;
+  
+  initial tmp = 0;
+  assign z = tmp;
+
+    always@(*)
+      tmp = (B==0) ? 1'b1 : 1'b0;
+
+<<<<<<< HEAD
+endmodule
+=======
+endmodule
+>>>>>>> 67b19e5f6f848330d546e93d8f6380265044f778

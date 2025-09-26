@@ -1,0 +1,61 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/gabri/Documents/GitHub/lab03-2022-1-grupo03-22-1-os_melhores/simulation/modelsim
+vBCDtoSSeg
+!s110 1650218741
+!i10b 1
+!s100 FG7a@ZX[U7HlE320=^Bm:0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ImM1Edhd5L:0IO??e^]HhP3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1650216581
+8C:/Users/gabri/Documents/GitHub/lab03-2022-1-grupo03-22-1-os_melhores/BCDtoSSeg.v
+FC:/Users/gabri/Documents/GitHub/lab03-2022-1-grupo03-22-1-os_melhores/BCDtoSSeg.v
+!i122 0
+L0 1 28
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z4 !s108 1650218741.000000
+!s107 C:/Users/gabri/Documents/GitHub/lab03-2022-1-grupo03-22-1-os_melhores/BCDtoSSeg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gabri/Documents/GitHub/lab03-2022-1-grupo03-22-1-os_melhores|C:/Users/gabri/Documents/GitHub/lab03-2022-1-grupo03-22-1-os_melhores/BCDtoSSeg.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/gabri/Documents/GitHub/lab03-2022-1-grupo03-22-1-os_melhores
+Z7 tCvgOpt 0
+n@b@c@dto@s@seg
+vBCDtoSSeg_TB
+!s110 1650218742
+!i10b 1
+!s100 ]^JDDHCMSGImbLTER:Un83
+R1
+Icl1VCz<LT_`aG9W`j?hYD2
+R2
+R0
+w1650217642
+8C:/Users/gabri/Documents/GitHub/lab03-2022-1-grupo03-22-1-os_melhores/BCDtoSSeg_TB.v
+FC:/Users/gabri/Documents/GitHub/lab03-2022-1-grupo03-22-1-os_melhores/BCDtoSSeg_TB.v
+!i122 1
+L0 3 26
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/gabri/Documents/GitHub/lab03-2022-1-grupo03-22-1-os_melhores/BCDtoSSeg_TB.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gabri/Documents/GitHub/lab03-2022-1-grupo03-22-1-os_melhores|C:/Users/gabri/Documents/GitHub/lab03-2022-1-grupo03-22-1-os_melhores/BCDtoSSeg_TB.v|
+!i113 1
+R5
+R6
+R7
+n@b@c@dto@s@seg_@t@b

@@ -1,0 +1,26 @@
+module dynamic_v(input rst,
+ input clk_e, input [15:0] NUM, output reg [0:3] an,
+ output reg [3:0] bcd);
+
+reg [1:0] count =0;
+always @(posedge clk_e or negedge rst) begin//
+		if(rst==0) begin
+			count<= 0;
+			an<=4'b1111; //4'b1111
+		end else begin 
+			count<= count+1;
+
+			case (count) 
+				2'h0: begin bcd <= NUM[3:0];   an<=4'b1110; end
+				//2'h0: begin bcd <= 4'd0;   an<=4'b1110; end 
+				2'h1: begin bcd <= NUM[7:4];   an<=4'b1101; end
+				//2'h1: begin bcd <= 4'b0001;   an<=4'b1101; end	
+				2'h2: begin bcd <= NUM[11:8];  an<=4'b1011; end 
+				//2'h2: begin bcd <= 4'b0010;  an<=4'b1011; end 
+				2'h3: begin bcd <= NUM[15:12]; an<=4'b0111; end 
+				//2'h3: begin bcd <= 4'b0011;; an<=4'b0111; end 
+			endcase
+		end
+end
+
+endmodule

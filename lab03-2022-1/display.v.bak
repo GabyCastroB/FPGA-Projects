@@ -1,0 +1,36 @@
+`timescale 1ns / 1ps
+module display(
+	//input [15:0] num,
+  input clk,
+  output [0:6] sseg,
+	output reg [3:0] an,
+	input rst,
+	output led
+);
+reg [3:0]b=0;
+wire [3:0]bcd;
+assign bcd=b;
+
+wire [15:0] num=16'h4321;
+ 
+BCDtoSSeg bcdtosseg(.BCD(bcd), .SSeg(sseg));
+
+reg [26:0] cfreq=0;
+wire [26:0] cf;
+assign cf=cfreq;
+wire enable;
+
+wire anode;
+assign anode=an;
+
+
+assign enable = cfreq[16];
+assign led =enable;
+//codigo modularizado en clk_impl
+clk_impl cl(.clk(clk), .rst(rst), .cfreq(cf));
+
+//codigo modularizado en freqDivisor
+freqDivisor divisor(.rst(rst), .enable(enable), .num(num),
+.an(anode), .bcd(bcd), );
+
+endmodule

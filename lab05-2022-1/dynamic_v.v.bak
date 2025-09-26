@@ -1,0 +1,35 @@
+module dynamic_v(input rst,
+<<<<<<< HEAD
+ input clk_e, input [3:0] pp1, input [3:0] pp2, output reg [1:0] an,
+ output reg [3:0] bcd);
+
+reg count =0;
+always @(posedge clk_e or negedge rst) begin
+		if(rst == 0) begin
+=======
+ input clk_e, input [3:0] out1, input [3:0] out2, output reg [1:0] an,
+ output reg [3:0] bcd);
+
+reg count =0;
+always @(posedge clk_e) begin
+		if(rst==0) begin
+>>>>>>> 67b19e5f6f848330d546e93d8f6380265044f778
+			count<= 0;
+			an<=2'b11; 
+		end else begin 
+			count<= count+1;
+			an<=2'b10; 
+			case (count) 
+<<<<<<< HEAD
+				1'h0: begin bcd <= pp1;   an<= 2'b10; end 
+				1'h1: begin bcd <= pp2;   an<= 2'b01; end
+=======
+				1'h0: begin bcd <= out1;   an<=2'b10; end 
+				1'h1: begin bcd <= out2;   an<=2'b01; end
+>>>>>>> 67b19e5f6f848330d546e93d8f6380265044f778
+			endcase
+		end
+end
+
+
+endmodule

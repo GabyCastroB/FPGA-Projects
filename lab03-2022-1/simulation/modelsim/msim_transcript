@@ -1,0 +1,55 @@
+# Reading pref.tcl
+# do BCDtoSSeg_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/gabri/Documents/GitHub/lab03-2022-1-grupo03-22-1-os_melhores {C:/Users/gabri/Documents/GitHub/lab03-2022-1-grupo03-22-1-os_melhores/BCDtoSSeg.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:05:41 on Apr 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gabri/Documents/GitHub/lab03-2022-1-grupo03-22-1-os_melhores" C:/Users/gabri/Documents/GitHub/lab03-2022-1-grupo03-22-1-os_melhores/BCDtoSSeg.v 
+# -- Compiling module BCDtoSSeg
+# 
+# Top level modules:
+# 	BCDtoSSeg
+# End time: 13:05:41 on Apr 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/gabri/Documents/GitHub/lab03-2022-1-grupo03-22-1-os_melhores {C:/Users/gabri/Documents/GitHub/lab03-2022-1-grupo03-22-1-os_melhores/BCDtoSSeg_TB.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:05:41 on Apr 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gabri/Documents/GitHub/lab03-2022-1-grupo03-22-1-os_melhores" C:/Users/gabri/Documents/GitHub/lab03-2022-1-grupo03-22-1-os_melhores/BCDtoSSeg_TB.v 
+# -- Compiling module BCDtoSSeg_TB
+# 
+# Top level modules:
+# 	BCDtoSSeg_TB
+# End time: 13:05:42 on Apr 17,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  BCDtoSSeg_TB
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" BCDtoSSeg_TB 
+# Start time: 13:05:42 on Apr 17,2022
+# Loading work.BCDtoSSeg_TB
+# Loading work.BCDtoSSeg
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'uut'.  Expected 3, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /BCDtoSSeg_TB/uut File: C:/Users/gabri/Documents/GitHub/lab03-2022-1-grupo03-22-1-os_melhores/BCDtoSSeg_TB.v Line: 8
+# ** Warning: (vsim-3722) C:/Users/gabri/Documents/GitHub/lab03-2022-1-grupo03-22-1-os_melhores/BCDtoSSeg_TB.v(8): [TFMPC] - Missing connection for port 'an'.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $finish    : C:/Users/gabri/Documents/GitHub/lab03-2022-1-grupo03-22-1-os_melhores/BCDtoSSeg_TB.v(26)
+#    Time: 200 ns  Iteration: 0  Instance: /BCDtoSSeg_TB
+# 1
+# Break in NamedBeginStat TEST_CASE at C:/Users/gabri/Documents/GitHub/lab03-2022-1-grupo03-22-1-os_melhores/BCDtoSSeg_TB.v line 26
+# End time: 13:07:56 on Apr 17,2022, Elapsed time: 0:02:14
+# Errors: 0, Warnings: 2

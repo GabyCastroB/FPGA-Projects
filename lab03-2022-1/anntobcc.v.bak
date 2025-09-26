@@ -1,0 +1,19 @@
+module anntobcc(
+	input reg[15:0] ann,
+	output reg [3:0] u,
+	output reg [3:0] d,
+	output reg [3:0] c,
+	output reg [3:0] m,
+	);
+
+reg [3:0] count =0;
+always @(num) begin
+	
+	m<=ann/1000;
+	c<=(ann-m)/100;
+	d<=(ann-m-c)/10;
+	u<=(ann-m-c-d);
+	
+end
+
+endmodule

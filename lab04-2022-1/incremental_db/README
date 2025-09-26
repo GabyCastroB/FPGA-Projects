@@ -1,0 +1,48 @@
+# lab04 Diseño de banco de Registro
+### Gabriela María Castro Beltrán
+
+## Resumen
+En el presente informe, se muestra la realización del diseño, sintentización e implementqación de un banco de registro, en el cual se desarrolla un flip-flop para el almacenamiento de datos, como de su aplicación como contadores. Este laboratorio se efectuó atreves de Quartus, una herramienta de software producida por Altera para el análisis y la síntesis de diseños realizados en HDL o hardware description language por sus siglas en inglés.
+## Palabras claves
+Verilog, tablas de verdad, compuertas lógicas, bit, FPGA.
+# Introdución
+## Flip-flop
+Los bloques básicos para construir los circuitos lógicos secuenciales son los flip-flops, caracterizados por su capacidad de memoria. Los flip-flops tambipen denominados como *cerrojos*, estos estan inicialmente construidos a partir de compuertas lógicas o en su forma de circuito integrado. Los flip-flops son importantes para el almacenamientos de datos, generación de tiempos, contadores que sigan una secuencia lógica, siendo dispositivos síncronos de dos estados, lo cual significa que la salida cambia de estado por medio de un disparo de un reloj (clock), en ellos es posible almacenar un único bit de datos (0 o 1). Existen diferentes tipos de flip-flops, entre los más importantes estan flip-flop RS, JK, D Y T.
+## Banco de registro
+En este aplicamos lo visto anteriormente para guradar un dato con flip-flop, en los cuales tendremos que almacenar cada bit del dato, dando como resultado un registro de dicho dato, hasta que se acctualize el valor por medio de otro contralador que reescribe el valor nuevo y lo vuelve a almacenar. Esta es basicamente la lógica que sigue un banco de registro el cual guarda una información por un tiempo determinado y pasando dicho tiempo actualiza y vuelve a guardar el nuevo valor dado.
+## Analís del Código
+Para nuestro código, ya que necesitamos que el valor almacenado de nuestro dato se muestre en una pantalla LCD, se realizó un decodificador de BCD a siete segmentos para un display de la siguiente manera:
+
+```C++
+module BCDtoSSeg (BCD, SSeg);
+
+  input [3:0] BCD;
+  output reg [6:0] SSeg;
+always @ ( * ) begin
+  case (BCD)
+   4'b0000: SSeg = 7'b0000001; // "0"  
+	4'b0001: SSeg = 7'b1001111; // "1" 
+	4'b0010: SSeg = 7'b0010010; // "2" 
+	4'b0011: SSeg = 7'b0000110; // "3" 
+	4'b0100: SSeg = 7'b1001100; // "4" 
+	4'b0101: SSeg = 7'b0100100; // "5" 
+	4'b0110: SSeg = 7'b0100000; // "6" 
+	4'b0111: SSeg = 7'b0001111; // "7" 
+	4'b1000: SSeg = 7'b0000000; // "8"  
+	4'b1001: SSeg = 7'b0000100; // "9" 
+   4'ha: SSeg = 7'b0001000;  
+   4'hb: SSeg = 7'b1100000;
+   4'hc: SSeg = 7'b0110001;
+   4'hd: SSeg = 7'b1000010;
+   4'he: SSeg = 7'b0110000;
+   4'hf: SSeg = 7'b0111000;
+    default:
+    SSeg = 0;
+  endcase
+end
+
+endmodule
+```
+## Simulación
+## Bibliografía
+1.	Floyd. Fundamentos de Sistemas Digitales 9 Edicion. Pearson Educacion; 2007.

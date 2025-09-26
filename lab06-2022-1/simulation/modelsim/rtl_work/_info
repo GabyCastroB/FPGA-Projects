@@ -1,0 +1,135 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/gabri/Documents/GitHub/lab06-2022-1-grupo03-22-1-os_melhores/simulation/modelsim
+vbuffer_ram_dp
+Z1 !s110 1656516199
+!i10b 1
+!s100 3:iRPK]hLaLVh>Li>h@R`1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IOmhbFX^j<cjCb1PHR;i<W0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1656516173
+8C:/Users/gabri/Documents/GitHub/lab06-2022-1-grupo03-22-1-os_melhores/hdl/scr/buffer_ram_dp.v
+FC:/Users/gabri/Documents/GitHub/lab06-2022-1-grupo03-22-1-os_melhores/hdl/scr/buffer_ram_dp.v
+!i122 3
+L0 19 42
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1656516199.000000
+!s107 C:/Users/gabri/Documents/GitHub/lab06-2022-1-grupo03-22-1-os_melhores/hdl/scr/buffer_ram_dp.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gabri/Documents/GitHub/lab06-2022-1-grupo03-22-1-os_melhores/hdl/scr|C:/Users/gabri/Documents/GitHub/lab06-2022-1-grupo03-22-1-os_melhores/hdl/scr/buffer_ram_dp.v|
+!i113 1
+Z7 o-vlog01compat -work work
+Z8 !s92 -vlog01compat -work work +incdir+C:/Users/gabri/Documents/GitHub/lab06-2022-1-grupo03-22-1-os_melhores/hdl/scr
+Z9 tCvgOpt 0
+vFSM_game
+R1
+!i10b 1
+!s100 ocQam;<K``4j_0oo6WcGl0
+R2
+IBSb:3I=m_d3jX5S<Yg[8z1
+R3
+R0
+w1655381055
+8C:/Users/gabri/Documents/GitHub/lab06-2022-1-grupo03-22-1-os_melhores/hdl/scr/FSM_game.v
+FC:/Users/gabri/Documents/GitHub/lab06-2022-1-grupo03-22-1-os_melhores/hdl/scr/FSM_game.v
+!i122 2
+L0 3 12
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/gabri/Documents/GitHub/lab06-2022-1-grupo03-22-1-os_melhores/hdl/scr/FSM_game.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gabri/Documents/GitHub/lab06-2022-1-grupo03-22-1-os_melhores/hdl/scr|C:/Users/gabri/Documents/GitHub/lab06-2022-1-grupo03-22-1-os_melhores/hdl/scr/FSM_game.v|
+!i113 1
+R7
+R8
+R9
+n@f@s@m_game
+vtest_VGA
+R1
+!i10b 1
+!s100 R8ddd8VaZzE2^4PPS@Z]22
+R2
+I:Kd^@QJjeWI=:=CTK@1Ih0
+R3
+R0
+w1656514365
+8C:/Users/gabri/Documents/GitHub/lab06-2022-1-grupo03-22-1-os_melhores/hdl/scr/test_VGA.v
+FC:/Users/gabri/Documents/GitHub/lab06-2022-1-grupo03-22-1-os_melhores/hdl/scr/test_VGA.v
+!i122 1
+L0 21 128
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/gabri/Documents/GitHub/lab06-2022-1-grupo03-22-1-os_melhores/hdl/scr/test_VGA.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gabri/Documents/GitHub/lab06-2022-1-grupo03-22-1-os_melhores/hdl/scr|C:/Users/gabri/Documents/GitHub/lab06-2022-1-grupo03-22-1-os_melhores/hdl/scr/test_VGA.v|
+!i113 1
+R7
+R8
+R9
+ntest_@v@g@a
+vtest_VGA_TB
+!s110 1656516200
+!i10b 1
+!s100 ^5Cne[E3bgo5PzYa64]hR3
+R2
+I^]ZmoV8AD]fPfI;;fjHdF2
+R3
+R0
+R4
+8C:/Users/gabri/Documents/GitHub/lab06-2022-1-grupo03-22-1-os_melhores/hdl/scr/test_VGA_TB.v
+FC:/Users/gabri/Documents/GitHub/lab06-2022-1-grupo03-22-1-os_melhores/hdl/scr/test_VGA_TB.v
+!i122 4
+L0 22 64
+R5
+r1
+!s85 0
+31
+!s108 1656516200.000000
+!s107 C:/Users/gabri/Documents/GitHub/lab06-2022-1-grupo03-22-1-os_melhores/hdl/scr/test_VGA_TB.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gabri/Documents/GitHub/lab06-2022-1-grupo03-22-1-os_melhores/hdl/scr|C:/Users/gabri/Documents/GitHub/lab06-2022-1-grupo03-22-1-os_melhores/hdl/scr/test_VGA_TB.v|
+!i113 1
+R7
+R8
+R9
+ntest_@v@g@a_@t@b
+vVGA_Driver640x480
+R1
+!i10b 1
+!s100 230zL<@GH1TTcIlD1a`CJ0
+R2
+IbMZzQFmC^z8j70?2<N4Si1
+R3
+R0
+w1656513832
+8C:/Users/gabri/Documents/GitHub/lab06-2022-1-grupo03-22-1-os_melhores/hdl/scr/VGA_driver.v
+FC:/Users/gabri/Documents/GitHub/lab06-2022-1-grupo03-22-1-os_melhores/hdl/scr/VGA_driver.v
+!i122 0
+L0 18 60
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/gabri/Documents/GitHub/lab06-2022-1-grupo03-22-1-os_melhores/hdl/scr/VGA_driver.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gabri/Documents/GitHub/lab06-2022-1-grupo03-22-1-os_melhores/hdl/scr|C:/Users/gabri/Documents/GitHub/lab06-2022-1-grupo03-22-1-os_melhores/hdl/scr/VGA_driver.v|
+!i113 1
+R7
+R8
+R9
+n@v@g@a_@driver640x480

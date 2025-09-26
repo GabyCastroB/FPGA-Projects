@@ -1,0 +1,157 @@
+# Reading pref.tcl
+# do lab05_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores {C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores/control_mult.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:48:33 on Jun 22,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores" C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores/control_mult.v 
+# -- Compiling module control_mult
+# 
+# Top level modules:
+# 	control_mult
+# End time: 11:48:33 on Jun 22,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores {C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores/comp.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:48:33 on Jun 22,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores" C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores/comp.v 
+# -- Compiling module comp
+# 
+# Top level modules:
+# 	comp
+# End time: 11:48:33 on Jun 22,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores {C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores/acc.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:48:33 on Jun 22,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores" C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores/acc.v 
+# -- Compiling module acc
+# 
+# Top level modules:
+# 	acc
+# End time: 11:48:33 on Jun 22,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores {C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores/dynamic_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:48:33 on Jun 22,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores" C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores/dynamic_v.v 
+# -- Compiling module dynamic_v
+# 
+# Top level modules:
+# 	dynamic_v
+# End time: 11:48:33 on Jun 22,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores {C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores/counter_clk.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:48:34 on Jun 22,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores" C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores/counter_clk.v 
+# -- Compiling module counter_clk
+# 
+# Top level modules:
+# 	counter_clk
+# End time: 11:48:34 on Jun 22,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores {C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores/BCDtoSSeg.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:48:34 on Jun 22,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores" C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores/BCDtoSSeg.v 
+# -- Compiling module BCDtoSSeg
+# 
+# Top level modules:
+# 	BCDtoSSeg
+# End time: 11:48:34 on Jun 22,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores {C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores/mult_32.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:48:34 on Jun 22,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores" C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores/mult_32.v 
+# -- Compiling module mult_32
+# 
+# Top level modules:
+# 	mult_32
+# End time: 11:48:34 on Jun 22,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores {C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores/rsr.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:48:34 on Jun 22,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores" C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores/rsr.v 
+# -- Compiling module rsr
+# 
+# Top level modules:
+# 	rsr
+# End time: 11:48:34 on Jun 22,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores {C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores/lsr.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:48:34 on Jun 22,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores" C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores/lsr.v 
+# -- Compiling module lsr
+# 
+# Top level modules:
+# 	lsr
+# End time: 11:48:34 on Jun 22,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores/mult_32 {C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores/mult_32/mult_32_TB.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:48:34 on Jun 22,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores/mult_32" C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores/mult_32/mult_32_TB.v 
+# -- Compiling module mult_32_TB
+# 
+# Top level modules:
+# 	mult_32_TB
+# End time: 11:48:34 on Jun 22,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  mult_32_TB
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" mult_32_TB 
+# Start time: 11:48:34 on Jun 22,2022
+# Loading work.mult_32_TB
+# Loading work.mult_32
+# Loading work.counter_clk
+# Loading work.BCDtoSSeg
+# Loading work.dynamic_v
+# Loading work.rsr
+# Loading work.lsr
+# Loading work.comp
+# Loading work.acc
+# Loading work.control_mult
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'uut'.  Expected 8, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /mult_32_TB/uut File: C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores/mult_32/mult_32_TB.v Line: 16
+# ** Warning: (vsim-3722) C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores/mult_32/mult_32_TB.v(16): [TFMPC] - Missing connection for port 'sseg'.
+# ** Warning: (vsim-3722) C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores/mult_32/mult_32_TB.v(16): [TFMPC] - Missing connection for port 'an'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'BCD'. The port definition is at: C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores/BCDtoSSeg.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /mult_32_TB/uut/bcdsseg File: C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores/mult_32.v Line: 31
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'bcd'. The port definition is at: C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores/dynamic_v.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /mult_32_TB/uut/dv File: C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores/mult_32.v Line: 32
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: user  Hostname: EQUIPO9  ProcessID: 8308
+#           Attempting to use alternate WLF file "./wlft4q6kbd".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft4q6kbd
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: (vsim-PLI-3110) $dumpfile : This task can be called only once. Please use $fdumpfile()
+# for multiple files.
+#    Time: 0 ps  Iteration: 0  Process: /mult_32_TB/#INITIAL#43(TEST_CASE) File: C:/Users/user/Documents/GitHub/lab05-2022-1-grupo03-22-1-os_melhores/mult_32/mult_32_TB.v Line: 45
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/mult_32_TB/uut/pp
+add wave -position insertpoint  \
+sim:/mult_32_TB/uut/sseg
+add wave -position insertpoint  \
+sim:/mult_32_TB/uut/an

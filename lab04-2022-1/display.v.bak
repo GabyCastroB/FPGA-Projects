@@ -1,0 +1,7 @@
+`timescale 1ns / 1ps
+module display(
+	input[2:0] readAddr1,
+	input[2:0] readAddr2,
+	input[2:0] writeAddr1,
+	input[3:0] data,
+);

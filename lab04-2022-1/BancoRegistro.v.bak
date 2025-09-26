@@ -1,0 +1,47 @@
+`timescale 1ns / 1ps
+
+module BancoRegistro #(      		 //   #( Parametros
+         parameter BIT_ADDR = 3,  //   BIT_ADDR Número de bit para la dirección
+         parameter BIT_DATO = 4  //  BIT_DATO  Número de bit para el dato
+	)
+	(
+    input [BIT_ADDR-1:0] addrRa,
+    input [BIT_ADDR-1:0] addrRb,
+    
+	 output reg [BIT_DATO-1:0] datOutRa,
+    output reg [BIT_DATO-1:0] datOutRb,
+    
+	 input [BIT_ADDR:0] addrW,
+    input [BIT_DATO-1:0] datW,
+    
+	 input RegWrite,
+    //input clk,
+    input rst
+    );
+
+// La cantdiad de registros es igual a: 
+localparam NREG = 2 ** BIT_ADDR;//8
+  
+//configiración del banco de registro 
+reg [BIT_DATO-1: 0] breg [NREG-1:0];
+
+always @(addrRa or addrRb) begin
+	assign  datOutRa = breg[addrRa];
+	assign  datOutRb = breg[addrRb];
+end
+
+always @(posedge rst or posedge RegWrite) begin
+	if (RegWrite == 1)begin
+     breg[addrW] <= datW;
+	end
+	if (rst == 1)
+	begin
+		reg [BIT_ADDR:0] i;
+		for(i=0; i < NREG; i = i+1)begin
+			breg[i] <= 4'b0000;
+		end
+	end
+
+end
+
+endmodule

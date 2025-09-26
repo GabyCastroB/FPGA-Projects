@@ -1,0 +1,12 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/gabri/Documents/GitHub/lab06-2022-1-grupo03-22-1-os_melhores/hdl/scr {C:/Users/gabri/Documents/GitHub/lab06-2022-1-grupo03-22-1-os_melhores/hdl/scr/VGA_driver.v}
+vlog -vlog01compat -work work +incdir+C:/Users/gabri/Documents/GitHub/lab06-2022-1-grupo03-22-1-os_melhores/hdl/scr {C:/Users/gabri/Documents/GitHub/lab06-2022-1-grupo03-22-1-os_melhores/hdl/scr/test_VGA.v}
+vlog -vlog01compat -work work +incdir+C:/Users/gabri/Documents/GitHub/lab06-2022-1-grupo03-22-1-os_melhores/hdl/scr {C:/Users/gabri/Documents/GitHub/lab06-2022-1-grupo03-22-1-os_melhores/hdl/scr/FSM_game.v}
+vlog -vlog01compat -work work +incdir+C:/Users/gabri/Documents/GitHub/lab06-2022-1-grupo03-22-1-os_melhores/hdl/scr {C:/Users/gabri/Documents/GitHub/lab06-2022-1-grupo03-22-1-os_melhores/hdl/scr/buffer_ram_dp.v}
+

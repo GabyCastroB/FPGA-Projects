@@ -1,0 +1,89 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -4.292
+TNS   : -55.640
+
+Type  : Slow 1200mV 85C Model Setup 'counter_clk:comb_4|cfreq[16]'
+Slack : -0.536
+TNS   : -2.093
+
+Type  : Slow 1200mV 85C Model Hold 'counter_clk:comb_4|cfreq[16]'
+Slack : 0.466
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.736
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -40.175
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'rwrite'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'counter_clk:comb_4|cfreq[16]'
+Slack : -1.487
+TNS   : -10.409
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -3.873
+TNS   : -48.122
+
+Type  : Slow 1200mV 0C Model Setup 'counter_clk:comb_4|cfreq[16]'
+Slack : -0.443
+TNS   : -1.685
+
+Type  : Slow 1200mV 0C Model Hold 'counter_clk:comb_4|cfreq[16]'
+Slack : 0.417
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.684
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -40.175
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'rwrite'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'counter_clk:comb_4|cfreq[16]'
+Slack : -1.487
+TNS   : -10.409
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -1.468
+TNS   : -12.576
+
+Type  : Fast 1200mV 0C Model Setup 'counter_clk:comb_4|cfreq[16]'
+Slack : 0.249
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'counter_clk:comb_4|cfreq[16]'
+Slack : 0.194
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.292
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -29.640
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'rwrite'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'counter_clk:comb_4|cfreq[16]'
+Slack : -1.000
+TNS   : -7.000
+
+------------------------------------------------------------

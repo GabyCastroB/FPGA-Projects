@@ -1,0 +1,10 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/gabri/Documents/GitHub/lab02-2022-1-grupo03-22-1-os_melhores/hdl/src {C:/Users/gabri/Documents/GitHub/lab02-2022-1-grupo03-22-1-os_melhores/hdl/src/sum1bcc.v}
+vlog -vlog01compat -work work +incdir+C:/Users/gabri/Documents/GitHub/lab02-2022-1-grupo03-22-1-os_melhores/Codigo_S {C:/Users/gabri/Documents/GitHub/lab02-2022-1-grupo03-22-1-os_melhores/Codigo_S/Sum4bcc.v}
+

@@ -1,0 +1,22 @@
+module freqDivisor(input rst,
+ input enable, input [15:0] num, output reg [0:3] an,
+ output reg [3:0] bcd);
+
+reg [1:0] count =0;
+always @(posedge enable) begin//
+		if(rst==0) begin
+			count<= 0;
+			an<=4'b1111; 
+		end else begin 
+			count<= count+1;
+			an<=4'b1101; 
+			case (count) 
+				2'h0: begin bcd <= num[3:0];   an<=4'b1110; end 
+				2'h1: begin bcd <= num[7:4];   an<=4'b1101; end 
+				2'h2: begin bcd <= num[11:8];  an<=4'b1011; end 
+				2'h3: begin bcd <= num[15:12]; an<=4'b0111; end 
+			endcase
+		end
+end
+
+endmodule

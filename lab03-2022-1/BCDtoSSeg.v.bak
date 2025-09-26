@@ -1,0 +1,3 @@
+module BCDtoSSeg(input [3:0] BCD, output reg[6:0] Seg);
+
+always @ (*) begin 

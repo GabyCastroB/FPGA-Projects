@@ -1,0 +1,9 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/gabri/Documents/GitHub/lab03-2022-1-grupo03-22-1-os_melhores {C:/Users/gabri/Documents/GitHub/lab03-2022-1-grupo03-22-1-os_melhores/BCDtoSSeg.v}
+
