@@ -13,7 +13,7 @@ En el presente informe, se muestra la realización de un sumador de 4 bit, anali
 Verilog, tablas de verdad, compuertas lógicas, acarreo, bit, FPGA, sumador de 1 bit.
 
 ## Introdución
-Con el presente informe se pretende estudiar e identificar las compuertas lógicas utilizadas para el desarrollo de un sumador de 4 bit, teniendo como objetivo la familiarización con el franwork de trabajo de la FPGA, así como comprender el lenguaje en Hardware, el cual estará dado por el lenguaje en Verilog y su simulación.
+Con el presente informe se pretende estudiar e identificar las compuertas lógicas utilizadas para el desarrollo de un sumador de 4 bit, teniendo como objetivo la familiarización con el framework de trabajo de la FPGA, así como comprender el lenguaje en Hardware, el cual estará dado por el lenguaje en Verilog y su simulación.
 
 ## Sumador de 4 bits
 
@@ -41,7 +41,7 @@ Figura 1. Diagrama del sumador de 4 bits.
 
 ### Sumador de 1 bit
 
-Como se menciono anterior mente para el sumador de 4 bits es necesario la implementacóin individual de un sumador de 1 bit, el cual tenga tanto Cin como Cout. El sumador de un bit guarda la suma de las entradas en un registro de 2 bits donde el primero es la salida y el segundo es el Cout. 
+Como se menciono anterior mente para el sumador de 4 bits es necesario la implementación individual de un sumador de 1 bit, el cual tenga tanto Cin como Cout. El sumador de un bit guarda la suma de las entradas en un registro de 2 bits donde el primero es la salida y el segundo es el Cout. 
 
 ```python
 module sum1bcc (A, B, Ci,Cout,S);
